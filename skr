@@ -1,0 +1,1 @@
+pipeline {     agent { label 'test' }     stages {         stage('Hello World') {             steps {                 // This will print "Hello World" to the console                 echo 'Hello World'             }         }     } }
